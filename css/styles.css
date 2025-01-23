@@ -3830,7 +3830,7 @@ img.u-pull-left {
 }
 
 .modal-popup__details {
-    background-color : rgba(0, 0, 0, 0.3);
+    background-color : var(--color-body);
     font-size        : var(--text-xs);
     line-height      : var(--vspace-1_25);
     color            : white;
@@ -4241,4 +4241,18 @@ img.u-pull-left {
 
 #experience ul li {
     margin-bottom: 1rem;
+}
+
+.modal-popup__close {
+    position: fixed;
+    bottom: 10%; /* Adjust as needed */
+    right: 5%; /* Adjust to match your design */
+    z-index: 999;
+}
+
+@media (max-width: 768px) {
+    .modal-popup__close {
+        bottom: 5%; /* Bring it further down for mobile screens */
+        right: 10%; /* Keep it visible and accessible */
+    }
 }
