@@ -1,7 +1,7 @@
 /* =================================================================== 
- * whiausbon Main Stylesheet
+ * Luther Main Stylesheet
  * Template Ver. 1.0.0
- * 02-15-2024
+ * 02-15-2021
  * ------------------------------------------------------------------
  *
  * TOC:
@@ -3774,15 +3774,6 @@ img.u-pull-left {
     position         : relative;
 }
 
-@media (max-width: 768px) {
-    .modal-popup {
-        max-width: 95%; /* Adjust for smaller screens */
-        max-height: 55%; /* Slightly reduce height for better spacing */
-        padding: 40px; /* Add padding for spacing */
-        overflow-y       : auto;
-    }
-}
-
 .modal-popup img {
     margin-bottom : var(--vspace-0_75);
 }
@@ -3839,7 +3830,7 @@ img.u-pull-left {
 }
 
 .modal-popup__details {
-    background-color : var(--color-body);
+    background-color : rgba(0, 0, 0, 0.3);
     font-size        : var(--text-xs);
     line-height      : var(--vspace-1_25);
     color            : white;
@@ -4247,9 +4238,3 @@ img.u-pull-left {
         right : 6vw;
     }
 }
-
-#experience ul li {
-    margin-bottom: 1rem;
-}
-
-
