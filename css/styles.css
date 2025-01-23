@@ -4243,16 +4243,4 @@ img.u-pull-left {
     margin-bottom: 1rem;
 }
 
-.modal-popup__close {
-    position: fixed;
-    bottom: 10%; /* Adjust as needed */
-    right: 5%; /* Adjust to match your design */
-    z-index: 999;
-}
 
-@media (max-width: 768px) {
-    .modal-popup__close {
-        bottom: 5%; /* Bring it further down for mobile screens */
-        right: 10%; /* Keep it visible and accessible */
-    }
-}
