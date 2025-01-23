@@ -3766,12 +3766,21 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .modal-popup {
     max-width        : 680px;
+    max-height: 90%;
     background-color : white;
     font-size        : calc(var(--text-size) * 0.9447);
     line-height      : var(--vspace-0_875);
     color            : rgba(0, 0, 0, 0.75);
     overflow-y       : auto;
     position         : relative;
+}
+
+@media (max-width: 768px) {
+    .modal-popup {
+        max-width: 95%; /* Adjust for smaller screens */
+        max-height: 85%; /* Slightly reduce height for better spacing */
+        padding: 10px; /* Add padding for spacing */
+    }
 }
 
 .modal-popup img {
