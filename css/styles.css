@@ -4238,3 +4238,7 @@ img.u-pull-left {
         right : 6vw;
     }
 }
+
+    #experience ul li {
+    margin-bottom: 1rem; /* Adds space between list items in the Experience section */
+}
