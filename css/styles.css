@@ -3765,8 +3765,7 @@ img.u-pull-left {
  * ## modal popup
  * ------------------------------------------------------------------- */
 .modal-popup {
-    max-width        : 90%;
-    max-height       : 90%;
+    max-width        : 680px;
     background-color : white;
     font-size        : calc(var(--text-size) * 0.9447);
     line-height      : var(--vspace-0_875);
@@ -3779,7 +3778,8 @@ img.u-pull-left {
     .modal-popup {
         max-width: 95%; /* Adjust for smaller screens */
         max-height: 55%; /* Slightly reduce height for better spacing */
-        padding: 10px; /* Add padding for spacing */
+        padding: 40px; /* Add padding for spacing */
+        overflow-y       : auto;
     }
 }
 
